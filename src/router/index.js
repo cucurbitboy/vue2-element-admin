@@ -121,6 +121,11 @@ export const constantRoutes = [
         meta: { title: 'Profile', icon: 'user', noCache: true }
       }
     ]
+  },
+  {
+    path: '/test',
+    redirect: '/test',
+    component: () => import('@/views/test/index')
   }
 ]
 

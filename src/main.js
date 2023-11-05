@@ -1,3 +1,11 @@
+/*
+ * @Author: chuanqin.yeh@foxmail.com chuanqin3@iflytek.com
+ * @Date: 2023-10-24 21:46:32
+ * @LastEditors: chuanqin.yeh@foxmail.com chuanqin3@iflytek.com
+ * @LastEditTime: 2023-11-04 16:53:54
+ * @FilePath: /vue-element-admin/src/main.js
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 import Vue from 'vue'
 
 import Cookies from 'js-cookie'
@@ -19,6 +27,10 @@ import './permission' // permission control
 import './utils/error-log' // error log
 
 import * as filters from './filters' // global filters
+
+// 导入全局指令
+// import Directives from './JS/directives'
+// Vue.use(Directives)
 
 /**
  * If you don't want to use mock-server
